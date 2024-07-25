@@ -38,6 +38,7 @@ function App() {
         { path: "*", element: <Notfound /> },
         { path: "/details/:type/:id", element: <Details /> },
         { path: "/search", element: <SearchResult /> },
+        {path:'/movie-app',element:<Home/>}
       ],
     },
   ]);
